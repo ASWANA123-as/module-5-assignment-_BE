@@ -14,7 +14,7 @@ app.use(cors({
 app.use(cookieParser());
 app.use(express.json())
 app.get('/',(req,res)=>{
-    res.send('welcome to user system')
+    res.send('welcome to task management system system')
 
 
 })
