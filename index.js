@@ -8,7 +8,7 @@ const userroute=require('./Route/userRoute')
 const taskRoute=require('./Route/taskRoute')
 connectDb()
 app.use(cors({
-  origin: "https://module-5-assignment-fe-hbfc-4hrqj7a05-aswana-a-ss-projects.vercel.app",
+  origin: "https://module-5-assignment-fe-hbfc.vercel.app",
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   credentials: true,
 }));
