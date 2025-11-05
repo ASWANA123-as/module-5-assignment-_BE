@@ -8,9 +8,9 @@ const userroute=require('./Route/userRoute')
 const taskRoute=require('./Route/taskRoute')
 connectDb()
 app.use(cors({
-  origin: ["https://module-5-assignment-fe-ouek.vercel.app/"
-    ,"http://localhost:5173"],  // or "*" for all origins (not recommended for production)
-  credentials: true
+  origin: "https://module-5-assignment-fe-hbfc-4hrqj7a05-aswana-a-ss-projects.vercel.app",
+  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+  credentials: true,
 }));
 app.use(cookieParser());
 app.use(express.json())
